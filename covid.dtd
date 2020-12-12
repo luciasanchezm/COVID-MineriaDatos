@@ -1,0 +1,15 @@
+<?xml encoding="UTF-8"?>
+<!ELEMENT covid (Persona+)>
+<!ELEMENT Persona EMPTY>
+<!ATTLIST Persona Edad CDATA #REQUIRED>
+<!ATTLIST Persona Nivel (Niño | Joven | Adulto | Anciano) #REQUIRED>
+<!ATTLIST Persona Dia (LunesViernes | SabadoDomingo) #REQUIRED>
+<!ATTLIST Persona Turno (Matutino | Vespertino | Nocturno) #REQUIRED>
+<!ATTLIST Persona Hora CDATA #REQUIRED>
+<!ATTLIST Persona Evento (Social | Familiar | Negocio | Deportivo) #REQUIRED>
+<!ATTLIST Persona TipoLugarEvento (Cerrado | AireLibre | SemiAbierto) #REQUIRED>
+<!ATTLIST Persona NoPersonas CDATA #REQUIRED>
+<!ATTLIST Persona SanaDistancia (Si | No) #REQUIRED>
+<!ATTLIST Persona UsoCubrebocas (Si | No) #REQUIRED>
+<!ATTLIST Persona Genero (Masculino | Femenino) #REQUIRED>
+<!ATTLIST Persona SeContagio (Si | No) #REQUIRED>
